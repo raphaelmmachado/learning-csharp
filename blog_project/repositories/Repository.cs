@@ -1,6 +1,4 @@
-using Blog.Models;
 using Dapper.Contrib.Extensions;
-using Microsoft.Data.SqlClient;
 
 namespace Blog.Repositories
 {

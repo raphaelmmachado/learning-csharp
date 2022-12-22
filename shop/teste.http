@@ -1,0 +1,48 @@
+# GET http://localhost:5096/ 
+
+# GET http://localhost:5096/categories
+
+# POST http://localhost:5096/categories
+# Content-Type: application/json
+
+# {
+#     "title": "gaming devices"
+# }
+
+# PUT  http://localhost:5096/categories/0 HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "id": 0,
+#     "title": "nova categoria"
+# }
+
+# DELETE http://localhost:5096/categories/1
+
+# GET http://localhost:5096/products
+
+# POST http://localhost:5096/products/
+# Content-Type: application/json
+
+# {
+#     "title": "Motherboard",
+#     "description": "Asus ABC123",
+#     "price": 299,
+#     "categoryId":3
+# }
+
+# POST http://localhost:5096/users/
+# Content-Type: application/json
+
+# {
+#     "username":"raphaelmachado",
+#     "password":"123456",
+#     "role":"employee"
+# }
+POST http://localhost:5096/users/login
+Content-Type: application/json
+
+{
+    "username":"raphaelmachado",
+    "password":"123456"
+}
